@@ -2,6 +2,7 @@
   "name": "react-clock",
   "version": "1.0.0",
   "description": "Describe react-clock here",
+  "main": "index.js",
   "private": true,
   "scripts": {
     "build": "nwb build-react-app",
@@ -18,7 +19,15 @@
   "devDependencies": {
     "nwb": "0.15.x"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takivlasakakis/react-clock.git"
+  },
+  "author": "Taki Vlasakakis",
   "license": "MIT",
-  "repository": ""
+  "bugs": {
+    "url": "https://github.com/takivlasakakis/react-clock/issues"
+  },
+  "homepage": "https://github.com/takivlasakakis/react-clock#readme"
+}
 }
