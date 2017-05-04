@@ -6,9 +6,6 @@ module.exports = {
     },
     type: 'react-app',
     webpack: {
-        html: {
-            favicon: 'public/favicon.png',
-        },
         rules: {
             css: {
                 modules: true,
