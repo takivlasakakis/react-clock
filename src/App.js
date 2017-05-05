@@ -1,4 +1,6 @@
 import './App.css'
+import Clock from './components/clock/index.js'
+import { render } from 'react-dom'
 
 import React from 'react'
 
@@ -8,6 +10,9 @@ let App = React.createClass({
       <div className="App-heading App-flex">
         <h2>Welcome to <span className="App-react">React</span></h2>
       </div>
+        <div>
+            <Clock />
+        </div>
       <div className="App-instructions App-flex">
         <img className="App-logo" src={require('./react.svg')}/>
         <p>Edit <code>src/App.js</code> and save to hot reload your changes.</p>

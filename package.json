@@ -1,7 +1,7 @@
 {
   "name": "react-clock",
   "version": "1.0.0",
-  "description": "Describe react-clock here",
+  "description": "Creating a clock in reactjs to explore my understanding.",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -13,8 +13,14 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+    "postcss-animation": "0.0.12",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-import": "^9.1.0",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
+    "prop-types": "^15.5.8"
   },
   "devDependencies": {
     "nwb": "0.15.x"
